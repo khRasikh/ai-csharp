@@ -9,6 +9,12 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <DocumentationFile>Comments.xml</DocumentationFile>
     <NoWarn>1591</NoWarn>
+
+    <!-- NuGet package metadata -->
+    <PackageId>LearnCSharp</PackageId>
+    <Version>1.0.0</Version>
+    <Company>Personal</Company>
+    <Description>A sample Windows app packaged as NuGet</Description>
   </PropertyGroup>
 
 </Project>
