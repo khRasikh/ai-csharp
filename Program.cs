@@ -42,21 +42,32 @@
             // string d = s.GetFirst("one");
             // Console.WriteLine(d);
 
-            // Functions 
-            Functions f = new Functions();
-            f.GreetUser("Rasikh");
-            f.DisplayInfo("Rasikh", 28);
-            int number = 19;
-            f.AddFiveRef(ref number);
-            Console.WriteLine($"The ref of number 19 is : {number}");
-            string fullName;
-            f.GetFullName("Khuda Dad", "Rasikh", out fullName);
-            Console.WriteLine($"The updated out fullName is: {fullName}");
+            // // Functions 
+            // Functions f = new Functions();
+            // f.GreetUser("Rasikh");
+            // f.DisplayInfo("Rasikh", 28);
+            // int number = 19;
+            // f.AddFiveRef(ref number);
+            // Console.WriteLine($"The ref of number 19 is : {number}");
+            // string fullName;
+            // f.GetFullName("Khuda Dad", "Rasikh", out fullName);
+            // Console.WriteLine($"The updated out fullName is: {fullName}");
 
-            var (sum, product) = f.CalculateSumAndProduct(10, 10);
-            var tuple = f.CalculateSumAndProduct(10, 10);
-            Console.WriteLine($"Tuple sum: {tuple.sum} and product:{tuple.product}");
-            Console.WriteLine($"Tuple sum: {sum} and product:{product}");
+            // var (sum, product) = f.CalculateSumAndProduct(10, 10);
+            // var tuple = f.CalculateSumAndProduct(10, 10);
+            // Console.WriteLine($"Tuple sum: {tuple.sum} and product:{tuple.product}");
+            // Console.WriteLine($"Tuple sum: {sum} and product:{product}");
+
+            // OOP
+            Computer c = new Computer("Dell", "Intel i5", 16);
+            Console.WriteLine(c);
+
+            Laptop l = new Laptop("Apple", "M2", 16, 1.4);
+            Console.WriteLine(l);
+
+            Desktop d = new Desktop("HP", "AMD Ryzen 7", 32, true);
+            Console.WriteLine(d);
+
         }
     }
 }
