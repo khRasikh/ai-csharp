@@ -59,14 +59,19 @@
             // Console.WriteLine($"Tuple sum: {sum} and product:{product}");
 
             // OOP
-            Computer c = new Computer("Dell", "Intel i5", 16);
-            Console.WriteLine(c);
+            // Computer c = new Computer("Dell", "Intel i5", 16);
+            // Console.WriteLine(c);
 
-            Laptop l = new Laptop("Apple", "M2", 16, 1.4);
-            Console.WriteLine(l);
+            // Laptop l = new Laptop("Apple", "M2", 16, 1.4);
+            // Console.WriteLine(l);
 
-            Desktop d = new Desktop("HP", "AMD Ryzen 7", 32, true);
-            Console.WriteLine(d);
+            // Desktop d = new Desktop("HP", "AMD Ryzen 7", 32, true);
+            // Console.WriteLine(d);
+
+
+            // Generics 
+            GenericList<int> result = TestGenericList.AddInt(42);
+            Console.WriteLine("Int value added successfully.", result);
 
         }
     }
