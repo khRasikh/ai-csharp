@@ -3,13 +3,13 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly" # or "daily"
+      interval: "weekly"
     target-branch: "master"
     open-pull-requests-limit: 10
 
   - package-ecosystem: "nuget"
-    directory: "/" # or the path to your .csproj/.sln file
+    directory: ".csproj/.sln"
     schedule:
-      interval: "weekly" # or "daily"
+      interval: "weekly"
     target-branch: "master"
     open-pull-requests-limit: 10
